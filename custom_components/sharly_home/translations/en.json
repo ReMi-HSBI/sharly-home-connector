@@ -1,0 +1,60 @@
+{
+  "config": {
+    "step": {
+      "qr": {
+        "title": "SHARLY Setup",
+        "description": "Use the SHARLY app to scan the QR code to start the enrollment process and press continue. Expires at {expires_at}."
+      },
+      "user": {
+        "title": "SHARLY Setup",
+        "description": "Scan the QR code to start the enrollment process and continue."
+      },
+      "enroll": {
+        "title": "SHARLY Setup",
+        "progress": {
+          "enrolling": "Waiting for enrollment to finish…"
+        },
+        "description": "Waiting for enrollment to finish…"
+      },
+      "broker": {
+        "title": "SHARLY Setup",
+        "description": "Please fill in the configuration settings.",
+        "data": {
+          "host": "MQTT broker address",
+          "port": "Port",
+          "username": "Username",
+          "password": "Password",
+          "topic": "MQTT topic prefix",
+          "domains": "Monitored sensors"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect.",
+      "invalid_auth": "Invalid authentication.",
+      "unknown": "An unknown error occurred.",
+      "qr_claimed": "QR code has already been claimed.",
+      "qr_expired": "QR code has expired.",
+      "no_status": "Unable to retrieve status.",
+      "timeout": "The operation timed out. Please try again.",
+      "enroll_failed": "Request failed.",
+      "cert_generation_error": "Error generating certificates.",
+      "cert_data_error": "Certificate validation failed.",
+      "qr_data_value": "QR code creation failed."
+    },
+    "abort": {
+      "already_configured": "This connection is already configured.",
+      "cannot_connect": "Failed to connect.",
+      "invalid_auth": "Invalid authentication.",
+      "unknown": "An unknown error occurred.",
+      "qr_claimed": "QR code has already been claimed.",
+      "qr_expired": "QR code has expired.",
+      "no_status": "Unable to retrieve status.",
+      "timeout": "The operation timed out. Please try again.",
+      "enroll_failed": "Request failed.",
+      "cert_generation_error": "Error generating certificates.",
+      "cert_data_error": "Certificate validation failed.",
+      "qr_data_value": "QR code creation failed."
+    }
+  }
+}
