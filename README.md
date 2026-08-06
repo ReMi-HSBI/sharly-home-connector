@@ -12,10 +12,6 @@ SHARLY Home is a custom Home Assistant integration that connects Home Assistant 
 
 End-user documentation is available in the [GitHub Wiki](https://github.com/ReMi-HSBI/sharly-home-connector/wiki).
 
-- [Installation](https://github.com/ReMi-HSBI/sharly-home-connector/wiki/Installation)
-- [Troubleshooting](https://github.com/ReMi-HSBI/sharly-home-connector/wiki/Troubleshooting)
-- [FAQ](https://github.com/ReMi-HSBI/sharly-home-connector/wiki/FAQ)
-
 ## Development
 
 If you want to contribute to this project or set up a development environment,
