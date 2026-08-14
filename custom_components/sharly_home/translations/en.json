@@ -7,7 +7,7 @@
       },
       "user": {
         "title": "SHARLY Setup",
-        "description": "Scan the QR code to start the enrollment process and continue."
+        "description": "HTTP server configuration."
       },
       "enroll": {
         "title": "SHARLY Setup",
@@ -24,8 +24,7 @@
           "port": "Port",
           "username": "Username",
           "password": "Password",
-          "topic": "MQTT topic prefix",
-          "domains": "Monitored sensors"
+          "topic": "MQTT topic prefix"
         }
       }
     },

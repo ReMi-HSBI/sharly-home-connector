@@ -7,7 +7,7 @@
       },
       "user": {
         "title": "SHARLY Einrichtung",
-        "description": "Debug: HTTP Server (Remove later)."
+        "description": "HTTP Server Konfiguration."
       },
       "enroll": {
         "title": "SHARLY Einrichtung",
@@ -24,8 +24,7 @@
           "port": "Port",
           "username": "Benutzername",
           "password": "Passwort",
-          "topic": "MQTT-Topic-Präfix",
-          "domains": "Zu überwachende Sensoren"
+          "topic": "MQTT-Topic-Präfix"
         }
       }
     },

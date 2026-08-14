@@ -25,7 +25,7 @@ _LOGGER = logging.getLogger(__name__)
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up SHARLY from a config entry."""
-    _LOGGER.debug("SHARLY Setup Entry.")
+    _LOGGER.debug("SHARLY Setup Entry")
     hass.data.setdefault(DOMAIN, {})
 
     # Load required information either after the inital setup
@@ -95,7 +95,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         topic_suffix = f"{sensor_type}/{entity_id.split('.')[1]}"
         await mqtt_client.publish(topic_suffix, message)
 
-    _LOGGER.debug("Store data in hass storage.")
+    _LOGGER.debug("Store data in hass storage")
 
     remove_listener = hass.bus.async_listen(EVENT_STATE_CHANGED, handle_state_change)
     hass.data[DOMAIN][entry.entry_id] = {

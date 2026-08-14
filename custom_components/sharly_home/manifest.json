@@ -1,16 +1,22 @@
 {
   "domain": "sharly_home",
   "name": "SHARLY",
-  "codeowners": ["@ddening"],
+  "codeowners": [
+    "@ddening"
+  ],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/ReMi-HSBI/sharly-home-connector/wiki",
   "integration_type": "service",
   "iot_class": "local_push",
   "quality_scale": "bronze",
-  "requirements": ["cryptography"],
+  "requirements": [
+    "cryptography"
+  ],
   "issue_tracker": "https://github.com/ReMi-HSBI/sharly-home-connector/issues",
-  "loggers": ["custom_components.sharly_home"],
-  "version": "0.1.0",
+  "loggers": [
+    "custom_components.sharly_home"
+  ],
+  "version": "0.1.1",
   "single_config_entry": true
 }
